@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+
+ul li a:hover{
+  --d:90%;
+  --t:0%;
+  transition:.3s background-size .3s  ;
+}
