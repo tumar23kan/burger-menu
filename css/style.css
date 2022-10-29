@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li a:hover {
+  --d:90%;
+  --t:0%;
+  transition: 0.3s background-size 0.3s;
+}
+
+#header {
+  background: green;
+}
+#header .container {
+  width: 1148px;
+  margin: 0 auto;
+}
+#header .container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem;
+}
+#header .container .navbar .logo {
+  color: #f10404;
+}
+#header .container .navbar ul {
+  list-style: none;
+  display: flex;
+}
+#header .container .navbar ul li {
+  display: inline-block;
+  padding: 1.3rem;
+}
+#header .container .navbar ul li a {
+  padding: 1rem;
+  text-decoration: none;
+  color: gold;
+  font-size: 1.2rem;
+  background: linear-gradient(#f64e66 0 0) var(--t, 43%) 82%/var(--d, 19%) 2px no-repeat;
+  transition: 0.3s, background-position 0.3s;
+  /* (#f64e66 0 0) var(--t, 43%) 78%/var(--d, 19%) 2px*/
+}
+
+#toggler,
+.navbar label {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
